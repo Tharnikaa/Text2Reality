@@ -11,7 +11,7 @@
 
 **Text2Reality** is an AI-powered **Natural Language-to-VR/3D Engine** designed to transform traditional textbook & 2D learning into dynamic, interactive, and immersive 3D/VR environments.
 
-Users describe what they want to learn in natural language (e.g. *"Show me the structure of a neuron"*, *"Solar system with orbits"*, *"DNA double helix"*, *"Anatomical human heart"*, *"Rutherford-Bohr quantum atom"*). The application analyzes the request, synthesizes structured 3D scenes, renders them in Three.js with full 360° rotation and zoom control, and allows direct exploration in **WebXR / Virtual Reality**.
+Users describe what they want to learn in natural language (e.g. *"Show me the structure of a neuron"*, *"Solar system with orbits"*, *"DNA double helix"*, *"Rutherford-Bohr quantum atom"*). The application analyzes the request, synthesizes structured 3D scenes, renders them in Three.js with full 360° rotation and zoom control, and allows direct exploration in **WebXR / Virtual Reality**.
 
 ---
 
@@ -20,7 +20,6 @@ Users describe what they want to learn in natural language (e.g. *"Show me the s
 ### 💬 1. Interactive AI Chatbox Interface
 * **ChatGPT/Claude Style Interface**: Glassmorphism dark-theme layout with real-time prompt generation.
 * **Quick Prompt Suggestions**: One-click chips for popular biology, physics, astronomy, and engineering models.
-* **Voice Speech Input**: Built-in speech-to-text button allowing users to speak their prompt directly.
 * **Structured Output Badge**: Displays model details, category tags, node counts, and scene JSON specifications.
 
 ### 🔄 2. Freedom of Rotating (360° Orbit Controls)
@@ -47,7 +46,7 @@ Users describe what they want to learn in natural language (e.g. *"Show me the s
 ## 🏗️ System Architecture & Workflow
 
 ```
-[ User Prompt / Voice ] 
+[ User Prompt ] 
           │
           ▼
 [ React Chat Interface ] 
@@ -138,9 +137,7 @@ Try pasting any of the following prompts into the chat box:
 1. `Show me the structure of a biological neuron with axon and soma`
 2. `Interactive solar system with sun, planets and orbits`
 3. `DNA double helix with base pairs AT and GC`
-4. `Anatomical human heart with aorta and muscle ventricles`
 5. `Rutherford-Bohr quantum atom model with protons and electrons`
-6. `Plant cell structure with cell wall, chloroplasts and nucleus`
 7. `V8 internal combustion engine block with moving pistons`
 
 ---
