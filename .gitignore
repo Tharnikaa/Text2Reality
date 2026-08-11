@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Env
+.env
+.env.local
+
+# Vite
+dist-ssr/
+*.local
