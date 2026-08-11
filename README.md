@@ -1,8 +1,8 @@
 # Text2Reality 🔮 — Natural Language to Interactive 3D/VR Engine
 
 > **Team Name**: Reality Crafters  
-> **Team Leader**: Srivarsha D M  
-> **Team Members**: Tharnikaa Balakrishnan, Naveen Raj R, Sanjay D  
+> **Team Leader**: Tharnikaa Balakrishnan  
+> **Team Members**: Srivarsha D M, Naveen Raj R, Sanjay D  
 > **Hackathon**: HackFusion  
 
 ---
